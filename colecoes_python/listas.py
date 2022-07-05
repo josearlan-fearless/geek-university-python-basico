@@ -314,6 +314,8 @@ lista = [1, 2, 3, 4]
 
 print(lista[1:])  # Iniciando no índice 1 e pegando todos os elementos restantes
 
+print(lista[-1:])  # Iniciando em índice negativo, lembrando a lista circular
+
 # Trabalhando com o slice de lista com o parâmetro 'fim'
 
 print(lista[:2])  # Começa em 0, pega até o índice 2 - 1

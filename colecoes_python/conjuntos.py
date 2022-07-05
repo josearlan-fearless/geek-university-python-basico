@@ -58,7 +58,7 @@ print(f'Lista: {lista} com {len(lista)} elementos')
 tupla = (99, 2, 2, 34, 23, 12, 1, 44, 5, 34)
 print(f'Tupla: {tupla} com {len(tupla)} elementos')
 
-# Dicionários não aceitam valores duplicados, então temos 8 elementos
+# Dicionários não aceitam chaves duplicadas, então temos 8 elementos
 dicionario = {}.fromkeys(lista, 'dict')
 print(f'Dicionário: {dicionario} com {len(dicionario)} elementos')
 
@@ -67,7 +67,7 @@ s = {99, 2, 2, 34, 23, 12, 1, 44, 5, 34}
 print(f'Conjunto: {s} com {len(s)} elementos')
 ===========================================================================
 ===========================================================================
-# Assim como todo outro conjunto Python podemos colocar tipos de dados misturados em Sets
+# Assim como todos outro conjunto Python podemos colocar tipos de dados misturados em Sets
 
 s = {1, 'b', True, 34.22, 44}
 

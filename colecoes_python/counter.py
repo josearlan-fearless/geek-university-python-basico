@@ -1,5 +1,6 @@
 """
 Módulo Collections - Counter (Contador)
+https://docs.python.org/3/library/collections.html#collections.Counter
 
 Collections -> High-performance Container Datetypes
 
@@ -51,4 +52,5 @@ res = Counter(palavras)
 
 print(res)
 
+# Encontrando as 5 palavras com mais ocorrêcia no texto
 print(res.most_common(5))

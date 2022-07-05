@@ -75,6 +75,8 @@ print(curso)
 # * Se os valores forem todos inteiros ou reais
 
 tupla = (1, 2, 3, 4, 5, 6)
+tupla = (1, 2, 3, 4, 5, 6, 'b')  # Aqui daria error em sum(), max(), min(), pois temos um valor
+diferente de inteiro ou real.
 
 print(sum(tupla))
 print(max(tupla))

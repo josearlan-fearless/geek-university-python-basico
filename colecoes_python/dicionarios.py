@@ -155,7 +155,7 @@ print(receita)
 # OBS: Neste caso o valor removido não é retornado.
 =======================================================================
 =======================================================================
-# Imagine uqe você tem um comércio eletrônico, onde temos um carrinho de compras na qual adicionamos produtos.
+# Imagine que você tem um comércio eletrônico, onde temos um carrinho de compras na qual adicionamos produtos.
 
 Carrinho de Compras:
     Produto 1:
